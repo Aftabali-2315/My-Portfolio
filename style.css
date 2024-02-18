@@ -243,3 +243,13 @@ footer {
 .image > img {
   border-radius: 3%;
 }
+
+.project-heading {
+  text-decoration: none;
+  color: rgb(39, 37, 37);
+}
+
+.project-heading:hover {
+  text-decoration: underline;
+  color: black;
+}
