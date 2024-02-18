@@ -1,0 +1,178 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.card {
+  display: inline-block;
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+@media (max-width: 1391px) {
+  .card {
+    width: 49%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .tile-image {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 1245px) {
+  .tile-image {
+    margin-right: 20px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1126px) {
+  .tile-image {
+    height: 150px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1072px) {
+  .card {
+    width: 47%;
+  }
+
+  .tile-image {
+    margin-right: 10px;
+    width: 49%;
+  }
+}
+
+@media (max-width: 1052px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .left {
+    clear: both;
+    display: block;
+    margin-left: 25%;
+  }
+  .right {
+    clear: both;
+    display: block;
+    margin-right: 27%;
+  }
+  .tile-image {
+    height: 80%;
+    width: 100%;
+    clear: both;
+  }
+
+  .card {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  p {
+    font-size: medium;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 610px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin: 0%;
+  }
+}
+
+@media (max-width: 539px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .card {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 392px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 320px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+}
