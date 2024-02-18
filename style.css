@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #222831;
+}
+
+nav {
+  background-color: #0f0f0f;
+  position: fixed;
+  width: 100vw;
+  height: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.tab {
+  margin-right: 5em;
+}
+
+.nav-tab {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-tab:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #232d3f;
+  color: whitesmoke;
+}
+
+img {
+  width: 400px;
+  margin-left: 30%;
+}
+
+p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.introduction {
+  padding: 99px;
+}
+
+.text-skill {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(39, 37, 37);
+}
+
+.html-img {
+  width: 200px;
+  margin: 0;
+}
+
+.css-img {
+  width: 150px;
+  margin: 0;
+}
+
+.bootstrap-img {
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+#skills {
+  padding-top: 35px;
+}
+
+#projects {
+  padding: 2rem;
+  background-color: #bfcfe7;
+}
+
+.tindog-img {
+  margin: 0;
+  width: 100%;
+}
+
+.tindog {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image {
+  width: 500px;
+}
+
+.project_info {
+  width: 500px;
+}
+
+.sub-heading {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info {
+  width: 100%;
+  text-align: justify;
+}
+
+.h2-heading {
+  margin-bottom: 4rem;
+}
+
+.mondrian_painting {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mondrian-img {
+  margin: 0;
+  width: 100%;
+}
+
+.webdesign_agency {
+  display: flex;
+  margin-top: 8rem;
+  justify-content: space-evenly;
+}
+
+.webdesign-img {
+  width: 100%;
+  margin: 0%;
+}
+
+.move_it {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.moveit-img {
+  width: 100%;
+  margin: 0;
+}
+
+.phone_logo {
+  width: 2rem;
+  margin: 0;
+}
+
+.email_logo {
+  width: 2rem;
+  margin: 0;
+}
+
+.phone {
+  display: flex;
+  width: 15%;
+  justify-content: space-evenly;
+}
+
+.heading_text {
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.contact_details {
+  display: flex;
+  height: 6rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.email {
+  display: flex;
+  width: 21.5%;
+  justify-content: space-evenly;
+}
+
+#contact_me {
+  background-color: #eeeeee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  background-color: #232d3f;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.social_media {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.linkedin,
+.instagram,
+.facebook {
+  margin: 0;
+  width: 2rem;
+}
+
+.copyright {
+  padding-top: 1rem;
+  color: whitesmoke;
+}
+
+.image > img {
+  border-radius: 3%;
+}
